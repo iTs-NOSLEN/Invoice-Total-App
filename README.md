@@ -1,1 +1,4 @@
 # Invoice-Total-App
+
+ -- (Some features need work) --
+This Android app helps users calculate the total amount of an invoice by applying a discount to the subtotal. It offers a simple and intuitive interface, where users can input the subtotal, adjust the discount percentage using a seek bar, and see the discount and final total instantly. The app allows users to save their preferences, like the default discount percentage and whether to remember the last used discount. It also includes settings for customization, such as resetting values or viewing an "About" section. The app uses SharedPreferences to store user settings and features a basic menu for options like settings, reset, and app information. This project provides an easy and effective way to calculate invoices with flexible discounting options.

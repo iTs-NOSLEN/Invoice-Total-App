@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">INVOICE TOTAL 3.0</string>
+    <string name="sub_total_label">Sub-Total</string>
+    <string name="subtotal_amount">0</string>
+    <string name="discount_percent_label">% Descuento</string>
+    <string name="discount_amount_label"># Descuento</string>
+    <string name="total_amount_label">TOTAL</string>
+    <string name="percent">10%</string>
+    <string name="menu_settings">Configuracion</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="remember_percent_title">Guardar Porciento De Descuento</string>
+    <string name="remember_percent_summary">Guarda el descuento del calculo más reciente.</string>
+    <string name="default_title">Descuento Predeterminado</string>
+    <string name="default_summary">Pone un descuento por default.</string>settings
+    <string-array name="default_discount_keys">
+        <item >5%</item>
+        <item >10%</item>
+        <item >15%</item>
+        <item >20%</item>
+    </string-array>
+
+    <string-array name="default_discount_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+    <string name="default_discount">1</string>
+    <string name="menu_reset">Reset</string>
+    <string name="title_activity_settings">Configuración</string>
+    <string name="about_label">Acerca de</string>
+    <string name="about_description">Esta aplicacion aplica una cantidad de descuento a un sub-total.</string>
+
+</resources>

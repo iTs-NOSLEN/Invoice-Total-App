@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">Invoice Total 3.0</string>
+
+    <string name="sub_total_label">Subtotal</string>
+    <string name="subtotal_amount" translatable="false">0</string>
+
+    <string name="discount_percent_label">Discount Percent</string>
+    <string name="discount_percent" translatable="false">10%</string>
+
+    <string name="discount_amount_label">Discount Amount</string>
+    <string name="discount_amount" translatable="false">$0.00</string>
+
+    <string name="total_amount_label">Total</string>
+    <string name="total_amount" translatable="false">$0.00</string>
+
+    <string name="percent">10%</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="remember_percent_title">Remember Discount Percent</string>
+    <string name="remember_percent_summary">Remembers the discount for the most recent calculation.</string>
+    <string name="default_title">Default Discount Percent</string>
+    <string name="default_summary">Sets a default discount percent.</string>
+
+    <string-array name="default_discount_keys">
+        <item >5%</item>
+        <item >10%</item>
+        <item >15%</item>
+        <item >20%</item>
+    </string-array>
+
+    <string-array name="default_discount_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+    </string-array>
+
+    <string name="default_discount">1</string>
+
+    <string name="menu_reset">Reset</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="about_label">About</string>
+    <string name="about_description">This app applies a discount amount.</string>
+
+</resources>

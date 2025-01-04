@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <CheckBoxPreference
+        android:key="pref_remember_percent"
+        android:title="@string/remember_percent_title"
+        android:summary="@string/remember_percent_summary"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="pref_default_discount"
+        android:title="@string/default_title"
+        android:summary="@string/default_summary"
+        android:dialogTitle="@string/default_title"
+        android:entries="@array/default_discount_keys"
+        android:entryValues="@array/default_discount_values"
+        android:defaultValue="@string/default_discount" />
+
+</PreferenceScreen>

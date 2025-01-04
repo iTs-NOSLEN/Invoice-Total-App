@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InvoiceTotal" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorSecondary">@color/blue</item>
+    </style>
+    <style name="Theme.InvoiceTotal" parent="Base.Theme.InvoiceTotal" />
+</resources>
